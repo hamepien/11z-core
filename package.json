@@ -1,6 +1,6 @@
 {
     "name": "@11z/core",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "11z(core) - lighter, easier and maintainable.",
     "scripts": {
         "dev:example": "nodemon --exec ts-node -T ./example/di.ts",
