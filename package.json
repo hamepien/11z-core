@@ -1,7 +1,7 @@
 {
     "name": "@11z/core",
     "version": "0.30.0",
-    "description": "No description yet.",
+    "description": "11z(core) - lighter, easier and maintainable.",
     "scripts": {
         "dev:example": "nodemon --exec ts-node -T ./example/di.ts",
         "build": "tsc --project ./tsconfig.build.json && npm run bundle:cjs && npm run bundle:cjs:min && npm run bundle:esm && npm run bundle:esm:min && npm run bundle:umd && npm run bundle:umd:min",
