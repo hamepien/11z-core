@@ -1,0 +1,8 @@
+{
+    "cSpell.words": ["commitlint", "hamepien", "paramtypes", "tsbuildinfo"],
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.formatOnSave": true,
+    "editor.wordWrap": "on",
+    "git.ignoreLimitWarning": true
+}
