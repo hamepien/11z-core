@@ -14,7 +14,8 @@
     -   [@Injectable](#injectable)
     -   [@Inject](#inject)
     -   [@Injector](#injector)
--   [defineInjector](#define-injector)
+-   [Define injector](#define-injector)
+-   [The end](#the-end)
 
 <a href="#example"></a>
 
@@ -138,7 +139,7 @@ Injector.get(Example)
 
 <a href="#define-injector"></a>
 
-## defineInjector
+## Define injector
 
 The `defineInjector` function is used to define metadata object.
 
