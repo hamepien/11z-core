@@ -11,9 +11,9 @@
         "bundle:esm:min": "terser --ecma 2017 --compress --mangle --module -o ./dist/index.min.mjs -- ./dist/bundle/index.mjs",
         "bundle:umd": "rollup ./dist/index.js --file ./dist/bundle/index.umd.js -m --format umd",
         "bundle:umd:min": "terser --ecma 2017 --compress --mangle --module -o ./dist/index.umd.min.js -- ./dist/bundle/index.umd.js",
-        "clean": "rimraf ./dist ./.tsbuildinfo",
+        "clean": "rimraf ./dist ./.tsbuildinfo ./.eslintcache",
         "check-types": "tsc --pretty --noEmit",
-        "lint": "eslint . --ext .ts",
+        "lint": "eslint . --ext .ts --cache --fix",
         "format": "prettier --write ./**/*.ts",
         "check-format": "prettier --check ./**/*.ts",
         "prepare": "husky install",
@@ -28,7 +28,8 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/hamepien/11z-core.git"
+        "url": "https://github.com/hamepien/11z-core.git",
+        "directory": "@11z/core"
     },
     "bugs": {
         "url": "https://github.com/hamepien/11z-core/issues"
@@ -70,6 +71,7 @@
     },
     "lint-staged": {
         "./**/*.ts": [
+            "eslint . --ext .ts --cache --fix",
             "prettier --write --ignore-unknown"
         ]
     },
