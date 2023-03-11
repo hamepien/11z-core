@@ -15,7 +15,6 @@
     -   [@Inject](#inject)
     -   [@Injector](#injector)
 -   [Define injector](#define-injector)
--   [The end](#the-end)
 
 <a href="#example"></a>
 
@@ -153,9 +152,3 @@ export class Example {}
 // Define injector.
 defineInjector(Example)
 ```
-
-<a href="#the-end"></a>
-
-## The end
-
-**11z** - lighter, easier and maintainable.
