@@ -1,1 +1,1 @@
-Object.defineProperty(exports,"__esModule",{value:!0});require("tslib").__exportStar(require("./src/index"),exports);
+Object.defineProperty(exports,"__esModule",{value:!0});const tslib_1=require("tslib");tslib_1.__exportStar(require("./src/index"),exports);
